@@ -7,6 +7,9 @@ const methodOverride = require("method-override")
 const mongoose = require("mongoose")
 const express = require('express');
 const PORT = process.env.PORT
+
+
+
 /////////////////////////////////////////
 ///////ESTABLISH DATABASE CONNECTION
 ////////////////////////////////////////
@@ -15,6 +18,9 @@ const CONFIG = {
     useNewUrlParser: true,
     useUnifiedTopology: true
 }
+
+
+
 
 //Establish connection
 mongoose.connect(DATABASE_URL, CONFIG)
@@ -34,6 +40,8 @@ mongoose.connection
 
 
 
+
+
 /////////////////////////////////////////
 ///////CREATE APP OBJECT
 ////////////////////////////////////////
@@ -41,9 +49,18 @@ const app = express();
 const Pokemon = require('./models/pokemon.js');
 
 
+//Public Folder
+app.use(express.static('public'))
+
+/////////////////////////////////////////
+///////MIDDLEWARE
+////////////////////////////////////////
+app.use(express.urlencoded( {extended: true} ))
+app.use(methodOverride("_method"))
+
 // INDEX
 app.get('/', (req, res) => {
-res.send("your server is running");
+res.render();
 });
 
 
