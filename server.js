@@ -6,7 +6,7 @@ const morgan = require("morgan")
 const methodOverride = require("method-override")
 const mongoose = require("mongoose")
 const express = require('express');
-
+const PORT = process.env.PORT
 /////////////////////////////////////////
 ///////ESTABLISH DATABASE CONNECTION
 ////////////////////////////////////////
@@ -38,12 +38,12 @@ mongoose.connection
 ///////CREATE APP OBJECT
 ////////////////////////////////////////
 const app = express();
-const Pokemon = require('../models/pokemon.js');
+const Pokemon = require('./models/pokemon.js');
 
 
 // INDEX
 app.get('/', (req, res) => {
-res.render('index.ejs', { data: Pokemon });
+res.send("your server is running");
 });
 
 
@@ -51,3 +51,6 @@ res.render('index.ejs', { data: Pokemon });
 app.get('/:id', (req, res) => {
 res.render('show.ejs', { data: Pokemon[req.params.id] });
 });
+
+
+app.listen(PORT, () => console.log('Bands will make her dance on port: ${PORT}'))
