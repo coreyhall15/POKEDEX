@@ -20,6 +20,20 @@ const CONFIG = {
 mongoose.connect(DATABASE_URL, CONFIG)
 
 
+//Events for when connection opens/disconnects/errors
+mongoose.connection
+.on("open", ()=> console.log("connected to Mongoose"))
+.on("close", ()=> console.log("disconnected to Mongoose"))
+.on("error", (error)=> console.log("error"))
+
+
+
+/////////////////////////////////////////
+///////OUR MODEL
+////////////////////////////////////////
+
+
+
 /////////////////////////////////////////
 ///////CREATE APP OBJECT
 ////////////////////////////////////////
