@@ -7393,5 +7393,1351 @@ module.exports = [
         fleeflag: "31",
         entreeforestlevel: "10"
       }
-    }, 
-]
+    },  {
+        id: "026",
+        name: "Raichu",
+        img: "http://img.pokemondb.net/artwork/raichu.jpg",
+        type: [
+          "Electric"
+        ],
+        stats: {
+          hp: "60",
+          attack: "90",
+          defense: "55",
+          spattack: "90",
+          spdefense: "80",
+          speed: "100"
+        },
+        moves: {
+          level: [{
+            learnedat: "",
+            name: "thundershock",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "tail whip",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "quick attack",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "thunderbolt",
+            gen: "V"
+          }],
+          tmhm: [{
+            learnedat: "tm06",
+            name: "toxic",
+            gen: "V"
+          }, {
+            learnedat: "tm10",
+            name: "hidden power",
+            gen: "V"
+          }, {
+            learnedat: "tm15",
+            name: "hyper beam",
+            gen: "V"
+          }, {
+            learnedat: "tm16",
+            name: "light screen",
+            gen: "V"
+          }, {
+            learnedat: "tm17",
+            name: "protect",
+            gen: "V"
+          }, {
+            learnedat: "tm18",
+            name: "rain dance",
+            gen: "V"
+          }, {
+            learnedat: "tm21",
+            name: "frustration",
+            gen: "V"
+          }, {
+            learnedat: "tm24",
+            name: "thunderbolt",
+            gen: "V"
+          }, {
+            learnedat: "tm25",
+            name: "thunder",
+            gen: "V"
+          }, {
+            learnedat: "tm27",
+            name: "return",
+            gen: "V"
+          }, {
+            learnedat: "tm28",
+            name: "dig",
+            gen: "V"
+          }, {
+            learnedat: "tm31",
+            name: "brick break",
+            gen: "V"
+          }, {
+            learnedat: "tm32",
+            name: "double team",
+            gen: "V"
+          }, {
+            learnedat: "tm42",
+            name: "facade",
+            gen: "V"
+          }, {
+            learnedat: "tm44",
+            name: "rest",
+            gen: "V"
+          }, {
+            learnedat: "tm45",
+            name: "attract",
+            gen: "V"
+          }, {
+            learnedat: "tm46",
+            name: "thief",
+            gen: "V"
+          }, {
+            learnedat: "tm48",
+            name: "round",
+            gen: "V"
+          }, {
+            learnedat: "tm49",
+            name: "echoed voice",
+            gen: "V"
+          }, {
+            learnedat: "tm52",
+            name: "focus blast",
+            gen: "V"
+          }, {
+            learnedat: "tm56",
+            name: "fling",
+            gen: "V"
+          }, {
+            learnedat: "tm57",
+            name: "charge beam",
+            gen: "V"
+          }, {
+            learnedat: "tm68",
+            name: "giga impact",
+            gen: "V"
+          }, {
+            learnedat: "tm70",
+            name: "flash",
+            gen: "V"
+          }, {
+            learnedat: "tm72",
+            name: "volt switch",
+            gen: "V"
+          }, {
+            learnedat: "tm73",
+            name: "thunder wave",
+            gen: "V"
+          }, {
+            learnedat: "tm86",
+            name: "grass knot",
+            gen: "V"
+          }, {
+            learnedat: "tm87",
+            name: "swagger",
+            gen: "V"
+          }, {
+            learnedat: "tm90",
+            name: "substitute",
+            gen: "V"
+          }, {
+            learnedat: "tm93",
+            name: "wild charge",
+            gen: "V"
+          }, {
+            learnedat: "tm94",
+            name: "rock smash",
+            gen: "V"
+          }, {
+            learnedat: "hm04",
+            name: "strength",
+            gen: "V"
+          }],
+          egg: [{
+            name: "reversal",
+            gen: "V"
+          }, {
+            name: "bide",
+            gen: "V"
+          }, {
+            name: "present",
+            gen: "V"
+          }, {
+            name: "encore",
+            gen: "V"
+          }, {
+            name: "doubleslap",
+            gen: "V"
+          }, {
+            name: "wish",
+            gen: "V"
+          }, {
+            name: "charge",
+            gen: "V"
+          }, {
+            name: "fake out",
+            gen: "V"
+          }, {
+            name: "thunderpunch",
+            gen: "V"
+          }, {
+            name: "tickle",
+            gen: "V"
+          }, {
+            name: "flail",
+            gen: "V"
+          }, {
+            name: "endure",
+            gen: "V"
+          }, {
+            name: "lucky chant",
+            gen: "V"
+          }, {
+            name: "bestow",
+            gen: "V"
+          }, {
+            name: "volt tackle",
+            gen: "V"
+          }],
+          tutor: [],
+          gen34: [{
+            name: "focus punch",
+            method: "Gen IV TM01"
+          }, {
+            name: "iron tail",
+            method: "Gen IV TM23"
+          }, {
+            name: "shock wave",
+            method: "Gen IV TM34"
+          }, {
+            name: "secret power",
+            method: "Gen IV TM43"
+          }, {
+            name: "captivate",
+            method: "Gen IV TM78"
+          }, {
+            name: "sleep talk",
+            method: "Gen IV TM82"
+          }, {
+            name: "natural gift",
+            method: "Gen IV TM83"
+          }, {
+            name: "knock off",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "helping hand",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "magnet rise",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "snore",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "swift",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "mudslap",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "rollout",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "signal beam",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "headbutt",
+            method: "Move Tutor  HGSS"
+          }, {
+            name: "dynamicpunch",
+            method: "Move Tutor  Emerald"
+          }, {
+            name: "defense curl",
+            method: "Move Tutor  Emerald"
+          }, {
+            name: "mega punch",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "mega kick",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "body slam",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "doubleedge",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "counter",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "seismic toss",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "mimic",
+            method: "Move Tutor  FRLG"
+          }]
+        },
+        damages: {
+          normal: "1",
+          fire: "1",
+          water: "1",
+          electric: "0.5",
+          grass: "1",
+          ice: "1",
+          fight: "1",
+          poison: "1",
+          ground: "2",
+          flying: "0.5",
+          psychic: "1",
+          bug: "1",
+          rock: "1",
+          ghost: "1",
+          dragon: "1",
+          dark: "1",
+          steel: "0.5"
+        },
+        misc: {
+          sex: {
+            male: "50",
+            female: "50"
+          },
+          abilities: {
+            normal: [
+              "Static"
+            ],
+            hidden: [
+              "Lightningrod"
+            ]
+          },
+          classification: "mouse pokemon",
+          height: "2’07”",
+          weight: "66.1",
+          capturerate: "75",
+          eggsteps: "2560",
+          expgrowth: "1000000",
+          happiness: "70",
+          evpoints: [
+            "3 Speed Point(s)"
+          ],
+          fleeflag: "31",
+          entreeforestlevel: "10"
+        }
+      }, {
+        id: "027",
+        name: "Sandshrew",
+        img: "http://img.pokemondb.net/artwork/sandshrew.jpg",
+        type: [
+          "Ground"
+        ],
+        stats: {
+          hp: "50",
+          attack: "75",
+          defense: "85",
+          spattack: "20",
+          spdefense: "30",
+          speed: "40"
+        },
+        moves: {
+          level: [{
+            learnedat: "",
+            name: "scratch",
+            gen: "V"
+          }, {
+            learnedat: "3",
+            name: "defense curl",
+            gen: "V"
+          }, {
+            learnedat: "7",
+            name: "sand-attack",
+            gen: "V"
+          }, {
+            learnedat: "9",
+            name: "poison sting",
+            gen: "V"
+          }, {
+            learnedat: "13",
+            name: "rapid spin",
+            gen: "V"
+          }, {
+            learnedat: "15",
+            name: "swift",
+            gen: "V"
+          }, {
+            learnedat: "19",
+            name: "fury swipes",
+            gen: "V"
+          }, {
+            learnedat: "21",
+            name: "rollout",
+            gen: "V"
+          }, {
+            learnedat: "25",
+            name: "fury cutter",
+            gen: "V"
+          }, {
+            learnedat: "27",
+            name: "sand tomb",
+            gen: "V"
+          }, {
+            learnedat: "31",
+            name: "slash",
+            gen: "V"
+          }, {
+            learnedat: "33",
+            name: "gyro ball",
+            gen: "V"
+          }, {
+            learnedat: "37",
+            name: "sandstorm",
+            gen: "V"
+          }],
+          tmhm: [{
+            learnedat: "tm01",
+            name: "hone claws",
+            gen: "V"
+          }, {
+            learnedat: "tm06",
+            name: "toxic",
+            gen: "V"
+          }, {
+            learnedat: "tm10",
+            name: "hidden power",
+            gen: "V"
+          }, {
+            learnedat: "tm11",
+            name: "sunny day",
+            gen: "V"
+          }, {
+            learnedat: "tm17",
+            name: "protect",
+            gen: "V"
+          }, {
+            learnedat: "tm20",
+            name: "safeguard",
+            gen: "V"
+          }, {
+            learnedat: "tm21",
+            name: "frustration",
+            gen: "V"
+          }, {
+            learnedat: "tm26",
+            name: "earthquake",
+            gen: "V"
+          }, {
+            learnedat: "tm27",
+            name: "return",
+            gen: "V"
+          }, {
+            learnedat: "tm28",
+            name: "dig",
+            gen: "V"
+          }, {
+            learnedat: "tm31",
+            name: "brick break",
+            gen: "V"
+          }, {
+            learnedat: "tm32",
+            name: "double team",
+            gen: "V"
+          }, {
+            learnedat: "tm37",
+            name: "sandstorm",
+            gen: "V"
+          }, {
+            learnedat: "tm39",
+            name: "rock tomb",
+            gen: "V"
+          }, {
+            learnedat: "tm40",
+            name: "aerial ace",
+            gen: "V"
+          }, {
+            learnedat: "tm42",
+            name: "facade",
+            gen: "V"
+          }, {
+            learnedat: "tm44",
+            name: "rest",
+            gen: "V"
+          }, {
+            learnedat: "tm45",
+            name: "attract",
+            gen: "V"
+          }, {
+            learnedat: "tm46",
+            name: "thief",
+            gen: "V"
+          }, {
+            learnedat: "tm48",
+            name: "round",
+            gen: "V"
+          }, {
+            learnedat: "tm56",
+            name: "fling",
+            gen: "V"
+          }, {
+            learnedat: "tm65",
+            name: "shadow claw",
+            gen: "V"
+          }, {
+            learnedat: "tm74",
+            name: "gyro ball",
+            gen: "V"
+          }, {
+            learnedat: "tm75",
+            name: "swords dance",
+            gen: "V"
+          }, {
+            learnedat: "tm78",
+            name: "bulldoze",
+            gen: "V"
+          }, {
+            learnedat: "tm80",
+            name: "rock slide",
+            gen: "V"
+          }, {
+            learnedat: "tm81",
+            name: "x-scissor",
+            gen: "V"
+          }, {
+            learnedat: "tm84",
+            name: "poison jab",
+            gen: "V"
+          }, {
+            learnedat: "tm87",
+            name: "swagger",
+            gen: "V"
+          }, {
+            learnedat: "tm90",
+            name: "substitute",
+            gen: "V"
+          }, {
+            learnedat: "tm94",
+            name: "rock smash",
+            gen: "V"
+          }, {
+            learnedat: "hm01",
+            name: "cut",
+            gen: "V"
+          }, {
+            learnedat: "hm04",
+            name: "strength",
+            gen: "V"
+          }],
+          egg: [{
+            name: "flail",
+            gen: "V"
+          }, {
+            name: "counter",
+            gen: "V"
+          }, {
+            name: "rapid spin",
+            gen: "V"
+          }, {
+            name: "metal claw",
+            gen: "V"
+          }, {
+            name: "crush claw",
+            gen: "V"
+          }, {
+            name: "night slash",
+            gen: "V"
+          }, {
+            name: "mud shot",
+            gen: "V"
+          }, {
+            name: "endure",
+            gen: "V"
+          }, {
+            name: "chip away",
+            gen: "V"
+          }, {
+            name: "rock climb",
+            gen: "V"
+          }],
+          tutor: [],
+          gen34: [{
+            name: "focus punch",
+            method: "Gen IV TM01"
+          }, {
+            name: "iron tail",
+            method: "Gen IV TM23"
+          }, {
+            name: "secret power",
+            method: "Gen IV TM43"
+          }, {
+            name: "stealth rock",
+            method: "Gen IV TM76"
+          }, {
+            name: "captivate",
+            method: "Gen IV TM78"
+          }, {
+            name: "sleep talk",
+            method: "Gen IV TM82"
+          }, {
+            name: "natural gift",
+            method: "Gen IV TM83"
+          }, {
+            name: "knock off",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "snore",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "earth power",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "mudslap",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "super fang",
+            method: "Move Tutor  HGSS"
+          }, {
+            name: "headbutt",
+            method: "Move Tutor  HGSS"
+          }, {
+            name: "dynamicpunch",
+            method: "Move Tutor  Emerald"
+          }, {
+            name: "body slam",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "doubleedge",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "seismic toss",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "mimic",
+            method: "Move Tutor  FRLG"
+          }]
+        },
+        damages: {
+          normal: "1",
+          fire: "1",
+          water: "2",
+          electric: "0",
+          grass: "2",
+          ice: "2",
+          fight: "1",
+          poison: "0.5",
+          ground: "1",
+          flying: "1",
+          psychic: "1",
+          bug: "1",
+          rock: "0.5",
+          ghost: "1",
+          dragon: "1",
+          dark: "1",
+          steel: "1"
+        },
+        misc: {
+          sex: {
+            male: "50",
+            female: "50"
+          },
+          abilities: {
+            normal: [
+              "Sand Veil"
+            ],
+            hidden: [
+              "Sand Rush"
+            ]
+          },
+          classification: "mouse pokemon",
+          height: "2’00”",
+          weight: "26.5",
+          capturerate: "255",
+          eggsteps: "5120",
+          expgrowth: "1000000",
+          happiness: "70",
+          evpoints: [
+            "1 Defense Point(s)"
+          ],
+          fleeflag: "146",
+          entreeforestlevel: "10"
+        }
+      }, {
+        id: "028",
+        name: "Sandslash",
+        img: "http://img.pokemondb.net/artwork/sandslash.jpg",
+        type: [
+          "Ground"
+        ],
+        stats: {
+          hp: "75",
+          attack: "100",
+          defense: "110",
+          spattack: "45",
+          spdefense: "55",
+          speed: "65"
+        },
+        moves: {
+          level: [{
+            learnedat: "",
+            name: "scratch",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "defense curl",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "sand-attack",
+            gen: "V"
+          }, {
+            learnedat: "3",
+            name: "defense curl",
+            gen: "V"
+          }, {
+            learnedat: "7",
+            name: "sand-attack",
+            gen: "V"
+          }, {
+            learnedat: "9",
+            name: "poison sting",
+            gen: "V"
+          }, {
+            learnedat: "13",
+            name: "rapid spin",
+            gen: "V"
+          }, {
+            learnedat: "15",
+            name: "swift",
+            gen: "V"
+          }, {
+            learnedat: "19",
+            name: "fury swipes",
+            gen: "V"
+          }, {
+            learnedat: "21",
+            name: "rollout",
+            gen: "V"
+          }, {
+            learnedat: "22",
+            name: "crush claw",
+            gen: "V"
+          }, {
+            learnedat: "28",
+            name: "fury cutter",
+            gen: "V"
+          }, {
+            learnedat: "33",
+            name: "sand tomb",
+            gen: "V"
+          }, {
+            learnedat: "40",
+            name: "slash",
+            gen: "V"
+          }, {
+            learnedat: "45",
+            name: "gyro ball",
+            gen: "V"
+          }, {
+            learnedat: "52",
+            name: "sandstorm",
+            gen: "V"
+          }],
+          tmhm: [{
+            learnedat: "tm01",
+            name: "hone claws",
+            gen: "V"
+          }, {
+            learnedat: "tm06",
+            name: "toxic",
+            gen: "V"
+          }, {
+            learnedat: "tm10",
+            name: "hidden power",
+            gen: "V"
+          }, {
+            learnedat: "tm11",
+            name: "sunny day",
+            gen: "V"
+          }, {
+            learnedat: "tm15",
+            name: "hyper beam",
+            gen: "V"
+          }, {
+            learnedat: "tm17",
+            name: "protect",
+            gen: "V"
+          }, {
+            learnedat: "tm20",
+            name: "safeguard",
+            gen: "V"
+          }, {
+            learnedat: "tm21",
+            name: "frustration",
+            gen: "V"
+          }, {
+            learnedat: "tm26",
+            name: "earthquake",
+            gen: "V"
+          }, {
+            learnedat: "tm27",
+            name: "return",
+            gen: "V"
+          }, {
+            learnedat: "tm28",
+            name: "dig",
+            gen: "V"
+          }, {
+            learnedat: "tm31",
+            name: "brick break",
+            gen: "V"
+          }, {
+            learnedat: "tm32",
+            name: "double team",
+            gen: "V"
+          }, {
+            learnedat: "tm37",
+            name: "sandstorm",
+            gen: "V"
+          }, {
+            learnedat: "tm39",
+            name: "rock tomb",
+            gen: "V"
+          }, {
+            learnedat: "tm40",
+            name: "aerial ace",
+            gen: "V"
+          }, {
+            learnedat: "tm42",
+            name: "facade",
+            gen: "V"
+          }, {
+            learnedat: "tm44",
+            name: "rest",
+            gen: "V"
+          }, {
+            learnedat: "tm45",
+            name: "attract",
+            gen: "V"
+          }, {
+            learnedat: "tm46",
+            name: "thief",
+            gen: "V"
+          }, {
+            learnedat: "tm48",
+            name: "round",
+            gen: "V"
+          }, {
+            learnedat: "tm52",
+            name: "focus blast",
+            gen: "V"
+          }, {
+            learnedat: "tm56",
+            name: "fling",
+            gen: "V"
+          }, {
+            learnedat: "tm65",
+            name: "shadow claw",
+            gen: "V"
+          }, {
+            learnedat: "tm68",
+            name: "giga impact",
+            gen: "V"
+          }, {
+            learnedat: "tm71",
+            name: "stone edge",
+            gen: "V"
+          }, {
+            learnedat: "tm74",
+            name: "gyro ball",
+            gen: "V"
+          }, {
+            learnedat: "tm75",
+            name: "swords dance",
+            gen: "V"
+          }, {
+            learnedat: "tm78",
+            name: "bulldoze",
+            gen: "V"
+          }, {
+            learnedat: "tm80",
+            name: "rock slide",
+            gen: "V"
+          }, {
+            learnedat: "tm81",
+            name: "x-scissor",
+            gen: "V"
+          }, {
+            learnedat: "tm84",
+            name: "poison jab",
+            gen: "V"
+          }, {
+            learnedat: "tm87",
+            name: "swagger",
+            gen: "V"
+          }, {
+            learnedat: "tm90",
+            name: "substitute",
+            gen: "V"
+          }, {
+            learnedat: "tm94",
+            name: "rock smash",
+            gen: "V"
+          }, {
+            learnedat: "hm01",
+            name: "cut",
+            gen: "V"
+          }, {
+            learnedat: "hm04",
+            name: "strength",
+            gen: "V"
+          }],
+          egg: [{
+            name: "flail",
+            gen: "V"
+          }, {
+            name: "counter",
+            gen: "V"
+          }, {
+            name: "rapid spin",
+            gen: "V"
+          }, {
+            name: "metal claw",
+            gen: "V"
+          }, {
+            name: "crush claw",
+            gen: "V"
+          }, {
+            name: "night slash",
+            gen: "V"
+          }, {
+            name: "mud shot",
+            gen: "V"
+          }, {
+            name: "endure",
+            gen: "V"
+          }, {
+            name: "chip away",
+            gen: "V"
+          }, {
+            name: "rock climb",
+            gen: "V"
+          }],
+          tutor: [],
+          gen34: [{
+            name: "focus punch",
+            method: "Gen IV TM01"
+          }, {
+            name: "iron tail",
+            method: "Gen IV TM23"
+          }, {
+            name: "secret power",
+            method: "Gen IV TM43"
+          }, {
+            name: "stealth rock",
+            method: "Gen IV TM76"
+          }, {
+            name: "captivate",
+            method: "Gen IV TM78"
+          }, {
+            name: "sleep talk",
+            method: "Gen IV TM82"
+          }, {
+            name: "natural gift",
+            method: "Gen IV TM83"
+          }, {
+            name: "knock off",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "snore",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "earth power",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "mudslap",
+            method: "Move Tutor  PtHGSS"
+          }, {
+            name: "super fang",
+            method: "Move Tutor  HGSS"
+          }, {
+            name: "headbutt",
+            method: "Move Tutor  HGSS"
+          }, {
+            name: "dynamicpunch",
+            method: "Move Tutor  Emerald"
+          }, {
+            name: "body slam",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "doubleedge",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "seismic toss",
+            method: "Move Tutor  FRLG"
+          }, {
+            name: "mimic",
+            method: "Move Tutor  FRLG"
+          }]
+        },
+        damages: {
+          normal: "1",
+          fire: "1",
+          water: "2",
+          electric: "0",
+          grass: "2",
+          ice: "2",
+          fight: "1",
+          poison: "0.5",
+          ground: "1",
+          flying: "1",
+          psychic: "1",
+          bug: "1",
+          rock: "0.5",
+          ghost: "1",
+          dragon: "1",
+          dark: "1",
+          steel: "1"
+        },
+        misc: {
+          sex: {
+            male: "50",
+            female: "50"
+          },
+          abilities: {
+            normal: [
+              "Sand Veil"
+            ],
+            hidden: [
+              "Sand Rush"
+            ]
+          },
+          classification: "mouse pokemon",
+          height: "3’03”",
+          weight: "65.0",
+          capturerate: "90",
+          eggsteps: "5120",
+          expgrowth: "1000000",
+          happiness: "70",
+          evpoints: [
+            "2 Defense Point(s)"
+          ],
+          fleeflag: "146",
+          entreeforestlevel: "22"
+        }
+      }, {
+        id: "029",
+        name: "Nidoran?",
+        img: "https://img.pokemondb.net/artwork/nidoran-f.jpg",
+        type: [
+          "Poison"
+        ],
+        stats: {
+          hp: "55",
+          attack: "47",
+          defense: "52",
+          spattack: "40",
+          spdefense: "40",
+          speed: "41"
+        },
+        moves: {
+          level: [{
+            learnedat: "",
+            name: "growl",
+            gen: "V"
+          }, {
+            learnedat: "",
+            name: "scratch",
+            gen: "V"
+          }, {
+            learnedat: "7",
+            name: "tail whip",
+            gen: "V"
+          }, {
+            learnedat: "9",
+            name: "double kick",
+            gen: "V"
+          }, {
+            learnedat: "13",
+            name: "poison sting",
+            gen: "V"
+          }, {
+            learnedat: "19",
+            name: "fury swipes",
+            gen: "V"
+          }, {
+            learnedat: "21",
+            name: "bite",
+            gen: "V"
+          }, {
+            learnedat: "25",
+            name: "helping hand",
+            gen: "V"
+          }, {
+            learnedat: "31",
+            name: "toxic spikes",
+            gen: "V"
+          }, {
+            learnedat: "33",
+            name: "flatter",
+            gen: "V"
+          }, {
+            learnedat: "37",
+            name: "crunch",
+            gen: "V"
+          }, {
+            learnedat: "43",
+            name: "captivate",
+            gen: "V"
+          }, {
+            learnedat: "45",
+            name: "poison fang",
+            gen: "V"
+          }],
+          tmhm: [{
+            learnedat: "tm01",
+            name: "hone claws",
+            gen: "V"
+          }, {
+            learnedat: "tm06",
+            name: "toxic",
+            gen: "V"
+          }, {
+            learnedat: "tm09",
+            name: "venoshock",
+            gen: "V"
+          }, {
+            learnedat: "tm10",
+            name: "hidden power",
+            gen: "V"
+          }, {
+            learnedat: "tm11",
+            name: "sunny day",
+            gen: "V"
+          }, {
+            learnedat: "tm13",
+            name: "ice beam",
+            gen: "V"
+          }, {
+            learnedat: "tm14",
+            name: "blizzard",
+            gen: "V"
+          }, {
+            learnedat: "tm17",
+            name: "protect",
+            gen: "V"
+          }, {
+            learnedat: "tm18",
+            name: "rain dance",
+            gen: "V"
+          }, {
+            learnedat: "tm21",
+            name: "frustration",
+            gen: "V"
+          }, {
+            learnedat: "tm24",
+            name: "thunderbolt",
+            gen: "V"
+          }, {
+            learnedat: "tm25",
+            name: "thunder",
+            gen: "V"
+          }, {
+            learnedat: "tm27",
+            name: "return",
+            gen: "V"
+          }, {
+            learnedat: "tm28",
+            name: "dig",
+            gen: "V"
+          }, {
+            learnedat: "tm32",
+            name: "double team",
+            gen: "V"
+          }, {
+            learnedat: "tm36",
+            name: "sludge bomb",
+            gen: "V"
+          }, {
+            learnedat: "tm40",
+            name: "aerial ace",
+            gen: "V"
+          }, {
+            learnedat: "tm42",
+            name: "facade",
+            gen: "V"
+          }, {
+            learnedat: "tm44",
+            name: "rest",
+            gen: "V"
+          }, {
+            learnedat: "tm45",
+            name: "attract",
+            gen: "V"
+          }, {
+            learnedat: "tm46",
+            name: "thief",
+            gen: "V"
+          }, {
+            learnedat: "tm48",
+            name: "round",
+            gen: "V"
+          }, {
+            learnedat: "tm65",
+            name: "shadow claw",
+            gen: "V"
+          }, {
+            learnedat: "tm84",
+            name: "poison jab",
+            gen: "V"
+          }, {
+            learnedat: "tm87",
+            name: "swagger",
+            gen: "V"
+          }, {
+            learnedat: "tm90",
+            name: "substitute",
+            gen: "V"
+          }, {
+            learnedat: "tm94",
+            name: "rock smash",
+            gen: "V"
+          }, {
+            learnedat: "hm01",
+            name: "cut",
+            gen: "V"
+          }, {
+            learnedat: "hm04",
+            name: "strength",
+            gen: "V"
+          }],
+          egg: [{
+            name: "supersonic",
+            gen: "V"
+          }, {
+            name: "disable",
+            gen: "V"
+          }, {
+            name: "take down",
+            gen: "V"
+          }, {
+            name: "focus energy",
+            gen: "V"
+          }, {
+            name: "charm",
+            gen: "V"
+          }, {
+            name: "counter",
+            gen: "V"
+          }, {
+            name: "beat up",
+            gen: "V"
+          }, {
+            name: "pursuit",
+            gen: "V"
+          }, {
+            name: "skull bash",
+            gen: "V"
+          }, {
+            name: "iron tail",
+            gen: "V"
+          }, {
+            name: "poison tail",
+            gen: "V"
+          }, {
+            name: "endure",
+            gen: "V"
+          }, {
+        name: "chip away",
+        gen: "V"
+      }, {
+        name: "chip away",
+        gen: "V"
+      }],
+      tutor: [],
+      gen34: [{
+        name: "water pulse",
+        method: "Gen IV TM03"
+      }, {
+        name: "shock wave",
+        method: "Gen IV TM34"
+      }, {
+        name: "secret power",
+        method: "Gen IV TM43"
+      }, {
+        name: "sleep talk",
+        method: "Gen IV TM82"
+      }, {
+        name: "natural gift",
+        method: "Gen IV TM83"
+      }, {
+        name: "snore",
+        method: "Move Tutor  PtHGSS"
+      }, {
+        name: "mudslap",
+        method: "Move Tutor  PtHGSS"
+      }, {
+        name: "super fang",
+        method: "Move Tutor  HGSS"
+      }, {
+        name: "headbutt",
+        method: "Move Tutor  HGSS"
+      }, {
+        name: "defense curl",
+        method: "Move Tutor  Emerald"
+      }, {
+        name: "body slam",
+        method: "Move Tutor  FRLG"
+      }, {
+        name: "doubleedge",
+        method: "Move Tutor  FRLG"
+      }, {
+        name: "mimic",
+        method: "Move Tutor  FRLG"
+      }]
+    },
+    damages: {
+      normal: "1",
+      fire: "1",
+      water: "1",
+      electric: "1",
+      grass: "0.5",
+      ice: "1",
+      fight: "0.5",
+      poison: "0.5",
+      ground: "2",
+      flying: "1",
+      psychic: "2",
+      bug: "0.5",
+      rock: "1",
+      ghost: "1",
+      dragon: "1",
+      dark: "1",
+      steel: "1"
+    },
+    misc: {
+      sex: {
+        male: "0",
+        female: "100"
+      },
+      abilities: {
+        normal: [
+          "Poison Point",
+          "Rivalry"
+        ],
+        hidden: [
+          "Hustle"
+        ]
+      },
+      classification: "poison pin pokemon",
+      height: "1’04”",
+      weight: "15.4",
+      capturerate: "235",
+      eggsteps: "5120",
+      expgrowth: "1059860",
+      happiness: "70",
+      evpoints: [
+        "1 HP Point(s)"
+      ],
+      fleeflag: "55",
+      entreeforestlevel: "10"
+    }
+  }]
+  
